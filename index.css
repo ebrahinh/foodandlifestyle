@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  margin: 0; 
+  padding: 0; 
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #007AFF;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+
+li {
+  display: inline-block; 
+  padding: 0 10px; 
+}
+
+li a {
+  text-decoration: none; 
+  color: #ffffff;
+}
+
+.hero {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.featured {
+  padding: 50px 0;
+}
+
+.recipe-card {
+  display: inline-block;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.recipe-card img {
+  width: 100%;
+}
+
+.tips {
+  padding: 50px 0;
+}
+
+.health {
+  padding: 50px 0;
+}
+
+.sustainability {
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* CSS code to style the footer element fixed at the bottom of the page and add some comments to the code */
+
+/* Fixed Footer */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed; /* Element will stay fixed at the bottom of the page */
+  bottom: 0; /* Element will be 0px from the bottom of the page */
+  width: 100%; /* Element will take up the full width of the page */
+}
