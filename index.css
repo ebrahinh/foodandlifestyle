@@ -1,75 +1,167 @@
 body {
-  font-family: sans-serif;
-  margin: 0; 
-  padding: 0; 
-  background-color: #f2f2f2;
-}
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
 
-header {
-  background-color: #007AFF;
-  color: #ffffff;
-  padding: 10px 0;
-}
+  header nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: 300;
+    display: block;
+    padding: 10px;
+    transition: 0.2s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #e6e6e6;
+    color: #000;
+  }
+  
+  nav ul li.active a {
+    background-color: #e6e6e6;
+    color: #000;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section.homepage {
+    text-align: center;
+  }
+  
+  section.featured, 
+  section.categories, 
+  section.tips, 
+  section.health, 
+  section.sustainability, 
+  section.recipe {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  
+  section.featured img, 
+  section.categories img {
+    width: 100%;
+    max-width: 250px;
+    float: left;
+    margin: 0 10px 10px 0;
+  }
+  
+  section.featured a, 
+  section.categories a {
+    background-color: #1f1f1f;
+    color: #f2f2f2;
+    font-weight: 300;
+    padding: 10px;
+    transition: 0.2s;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  section.featured a:hover, 
+  section.categories a:hover {
+    background-color: #e6e6e6;
+    color: #000;
+  }
+  
+  .sustainability {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nutrition {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .exercise {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mentalhealth {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
 
-ul {
-  list-style: none; 
-  margin: 0; 
-  padding: 0; 
-}
-
-li {
-  display: inline-block; 
-  padding: 0 10px; 
-}
-
-li a {
-  text-decoration: none; 
-  color: #ffffff;
-}
-
-.hero {
-  padding: 50px 0;
-  text-align: center;
-}
-
-.featured {
-  padding: 50px 0;
-}
-
-.recipe-card {
-  display: inline-block;
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-}
-
-.recipe-card img {
-  width: 100%;
-}
-
-.tips {
-  padding: 50px 0;
-}
-
-.health {
-  padding: 50px 0;
-}
-
-.sustainability {
-  padding: 50px 0;
-}
-
-footer {
-  background-color: #000000;
-  color: #ffffff;
-  padding: 10px 0;
-  text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-/* CSS code to style the footer element fixed at the bottom of the page and add some comments to the code */
 
 /* Fixed Footer */
 footer {
